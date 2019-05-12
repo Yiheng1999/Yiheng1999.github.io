@@ -7,18 +7,27 @@ E-mail: lluuyyiihh@icloud.com
 
 ### Education
 
-**McGill University**  
+- **McGill University**  
 Bachelor of Science in Honours Software Engineering  
-*2017- *  
+*2017-*  
 
 ### Technical Skills
 
-*Operating Systems*  
+- *Operating Systems*  
 Windows 7, 8, 10; Linux (Ubuntu); macOS.  
-*Programming Languages*  
+- *Programming Languages*  
 Java; C; Python; OCaml; MIPS Assembly; Bash Script.  
-*Applications in CS field*  
+- *Applications in CS field*  
 Eclipse; Eclipse for C/C++; Emacs; Command line; Visual Studio; IntelliJ.  
-*Applications in other fields*  
+- *Applications in other fields*  
 CVS; Microsoft Office; Adobe Photoshop.  
 
+### Industrial Experience
+
+- **International Bussiness Machine (IBM), Shanghai, China**  
+Developer Intern  
+*June 2018 - July 2018*  
+  - Worked in IBM Shanghai client service AI chatbot program for China Pacific Insurance Company (CPIC);  
+  - Collected Data for the AI chatbot in the team;  
+  - Communicated with CPIC IT department;  
+  - Participated in chatbot handbook editing.

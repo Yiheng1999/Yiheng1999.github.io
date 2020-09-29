@@ -1,291 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-        width:800px;
-        margin: 0;
-    }
-
-    .info {
-        height: 30px;
-        width: 100%;
-        overflow: hidden;
-        background-color: rgb(0,60,56);
-        font-size: 12px;
-        color: white;
-    }
-
-    .info a:link {
-        color: mediumseagreen;
-    }
-
-    .info a:visited {
-        color: darkseagreen;
-    }
-
-
-    .header {
-        height: 110px;
-        width: 100%;
-        overflow: hidden;
-        background-color: rgb(0,125,86);
-        font-size: 20px;
-        vertical-align: middle;
-        color: white;
-    }
-
-    .bar {
-        border-top: 1px solid grey;
-        border-bottom: 1px solid mediumseagreen;
-        height: 40px;
-        width: 100%;
-        overflow: hidden;
-        background-image: linear-gradient(180deg, rgb(77,165,122), rgb(113,191,134));
-    }
-
-    .bar_link1, .bar_link2, .bar_link1:visited, .bar_link2:visited{
-        color: black;
-        display: inline-block;
-        margin-top: 9px;
-        text-decoration: none;
-        font-size: 18px
-    }
-
-    .bar_link1{
-        margin-left: 70px;
-    }
-
-    .bar_link2{
-        margin-left:40px;
-    }
-
-    .bar_link1:hover, .bar_link2:hover{
-        text-decoration: none;
-        color: white;
-    }
-
-    .content{
-        margin-left: 70px;
-        display: inline-block;
-        background-color: white;
-        width: 430px;
-        margin-top: 20px;
-        height: 700px;
-        font-size: 12px;
-    }
-
-    .content a, .content a:visited{
-        color: green;
-        text-decoration: none;
-    }
-
-    .quote{
-        border-left: 2px solid forestgreen;
-        padding-left: 5px;
-        margin-left:40px;
-    }
-
-    .sidebar{
-        display: inline-block;
-        background-color: rgb(208,217,203);
-        float:right;
-        margin-right:60px;
-        width: 210px;
-        height: 350px;
-        font-size: 12px;
-    }
-
-    .sidebar h3{s
-        margin-top: 25px;
-        margin-left: 20px;
-        margin-bottom: 5px;
-    }
-    .sidebar a, .sidebar a:visited{
-        text-decoration: none;
-        margin-left: 35px;
-        color: black;
-    }
-
-    .sidebar a:hover{
-        color: white
-    }
-
-    .footer {
-        margin-top: 30px;
-        height: 150px;
-        width: 100%;
-        background-color: rgb(0,55,38);
-        padding: 10px;
-    }
-
-    .links, .Follow, .copyright{
-        display: inline-block;
-        vertical-align:top;
-        margin-top: 7px
-    }
-
-    .links a, .Follow a, .links a:visited, .Follow a:visited{
-        color: white;
-        text-decoration: none;
-        font-size: 10px;
-    }
-
-    .links{
-        margin-left: 70px;
-    }
-
-    .Follow{
-        margin-left: 40px;
-    }
-
-    .copyright{
-        float:right;
-        font-size: 8px;
-        color: rgb(103,164,130);
-        margin-right: 50px;
-    }
-
-</style>
 <head>
-    <title>My Blog</title>
+    <title>Yiheng Lu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
+
+<style>
+    .main{
+        margin-bottom: 0;
+        background: url("img/background.jpeg") center center no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        border-radius: 0px;
+        color: white;
+    }
+</style>
 <body>
-    <div class="info">
-        <div style="display: inline-block; margin-left: 70px; vertical-align:top; margin-top: 7px">
-            Welcome, Guest &nbsp
-            <a href="https://www.ualberta.ca/">Login</a> &nbsp
-            <a href="https://apps.ualberta.ca/">Sign Up</a>
+
+<div class="jumbotron text-center main">
+    <h1>Yiheng Lu</h1>
+    <p>yihengluworks@gmail.com</p>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand">About</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/yiheng-lu/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/Yiheng1999">GitHub</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <div class="col-sm-4">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <p>my intro</p>
+            <h3>skills</h3>
+            <p>Java, Html ...</p>
+<!--            <ul class="nav nav-pills flex-column">-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" href="#">Active</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">Link</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#">Link</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link disabled" href="#">Disabled</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+            <hr class="d-sm-none">
         </div>
-        <div style="float: right; display: inline-block; margin-right: 70px; vertical-align:top; margin-top: 7px">
-            Stay Updated. &nbsp
-            <a href="https://www.library.ualberta.ca/">Subscribe via RSS</a> &nbsp
-            <a href="https://www.ualberta.ca/covid-19/index.html">Email Updates</a>
+        <div class="col-sm-8">
+            <h2>Education</h2>
+            <h5>McGill University</h5>
+            <p>2017-2020</p>
+            <p>Bachelor of Science, Major Computer Science</p>
+            <br>
+            <h2>Experience</h2>
+            <h5>internship 1</h5>
+            <p>responsibility</p>
+            <p>tasks</p>
         </div>
     </div>
-    <div class="header">
-        <h1 style="margin-left: 70px; display: inline-block">My Blog</h1> &nbsp
-        Description of My Blog
-    </div>
+</div>
 
-    <div class="bar">
-        <a class="bar_link1" href="https://www.ualberta.ca/">HOME</a>
-        <a class="bar_link2" href="https://www.ualberta.ca/admissions-programs/index.html">ABOUT</a>
-        <a class="bar_link2" href="https://www.ualberta.ca/faculties/index.html">BLOG</a>
-        <a class="bar_link2" href="https://www.ualberta.ca/about/contact.html">CONTACT</a>
-    </div>
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>about me</p>
+</div>
 
-    <div class = "main_page">
-        <div class="content">
-            <h1> Lorem ipsum dolor sit amet!</h1>
-            <p style="margin-top: -10px"> Generated by <a href="https://loremipsum.io/generator/">loremipsum</a>
-                and <a href="https://loremipsum.io/generator/">loremipsum</a> by <a href="https://loremipsum.io/generator/">loremipsum</a></p>
-            <p style="margin-top: -5px"> consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Blandit cursus risus at ultrices mi tempus imperdiet nulla malesuada.
-                Elit pellentesque habitant morbi tristique senectus et netus.
-                Id interdum velit laoreet id.</p>
-            <p class="quote"> Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien.
-                Vitae congue eu consequat ac felis donec. Molestie nunc non blandit massa enim.
-                Pharetra sit amet aliquam id. </p>
-            <p> Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant.
-                Pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna.
-                Consectetur lorem donec massa sapien faucibus et molestie.
-                Eget egestas purus viverra accumsan in nisl nisi scelerisque.
-            <a href="https://loremipsum.io/generator/">Read More</a></p>
-
-
-            <h1> Dolor sit amet consectetur </h1>
-            <p style="margin-top: -10px"> Generated by <a href="https://loremipsum.io/generator/">loremipsum</a>
-                and <a href="https://loremipsum.io/generator/">loremipsum</a> by <a href="https://loremipsum.io/generator/">loremipsum</a></p>
-            <p style="margin-top: -5px"> Elementum nisi quis eleifend quam. Enim tortor at auctor urna.
-                Praesent tristique magna sit amet purus gravida quis blandit turpis.
-                Augue interdum velit euismod in pellentesque massa placerat duis ultricies.
-                Rutrum quisque non tellus orci ac auctor augue mauris.
-            </p>
-            <ul>
-                <li>Turpis massa sed elementum tempus egestas sed sed risus pretium.</li>
-                <li>Rutrum quisque non tellus orci ac auctor augue mauris. </li>
-                <li>Iaculis nunc sed augue lacus viverra.</li>
-            </ul>
-
-            <p> Interdum consectetur libero id faucibus nisl tincidunt eget nullam.
-                Imperdiet sed euismod nisi porta lorem mollis.
-                Pellentesque diam volutpat commodo sed egestas egestas fringilla.
-                Vulputate enim nulla aliquet porttitor lacus.</p>
-
-
-            <h1> Id velit ut tortor pretium viverra?</h1>
-            <p style="margin-top: -10px"> Generated by <a href="https://loremipsum.io/generator/">loremipsum</a>
-                and <a href="https://loremipsum.io/generator/">loremipsum</a> by <a href="https://loremipsum.io/generator/">loremipsum</a></p>
-            <p style="margin-top: -5px"> <b>Ullamcorper sit amet risus nullam eget. </b>
-                Cursus in hac habitasse platea dictumst quisque sagittis.
-                Nunc sed blandit libero volutpat sed cras ornare arcu. </p>
-            <h4> Header Level 4 </h4>
-            <ol>
-                <li> Felis eget nunc lobortis mattis aliquam faucibus. </li>
-                <li> In vitae turpis massa sed elementum tempus egestas sed. </li>
-            </ol>
-            <p class="quote"> Aenean et tortor at risus. Urna molestie at elementum eu facilisis sed odio morbi quis.
-                Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque.
-                Id velit ut tortor pretium viverra. Lobortis elementum nibh tellus molestie nunc.
-                Risus at ultrices mi tempus imperdiet nulla malesuada pellentesque.  </p>
-            <p> At urna condimentum mattis pellentesque <a href="https://loremipsum.io/generator/">id nibh tortor id.</a>
-                Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor.
-                Risus viverra adipiscing at in tellus integer feugiat scelerisque varius.</p>
-            <h3> Header Level 3 </h3>
-            <ul>
-                <li>Rutrum quisque non tellus orci ac auctor augue mauris. </li>
-                <li>Iaculis nunc sed augue lacus viverra.</li>
-            </ul>
-            <ol>
-                <li> Felis eget nunc lobortis mattis aliquam faucibus. </li>
-                <li> In vitae turpis massa sed elementum tempus egestas sed. </li>
-            </ol>
-        </div>
-
-        <div class="sidebar">
-            <h3>Categories</h3>
-            <a href="https://www.ualberta.ca/">General</a><br>
-            <a href="https://www.ualberta.ca/">Ghost Sightings</a><br>
-            <a href="https://www.ualberta.ca/">UFO Crashes</a><br>
-            <a href="https://www.ualberta.ca/">Government Coverups</a><br>
-            <a href="https://www.ualberta.ca/">International Conspiracies</a>
-            <h3>Recent Posts</h3>
-            <a href="https://www.ualberta.ca/">Ghost Sighting in Mansion</a><br>
-            <a href="https://www.ualberta.ca/">UFO picked up by satellites</a><br>
-            <a href="https://www.ualberta.ca/">Mutants among us?</a><br>
-            <a href="https://www.ualberta.ca/">Bigfoot: Fact or Fiction?</a>
-            <h3>Archives</h3>
-            <a href="https://www.ualberta.ca/">June 2020</a><br>
-            <a href="https://www.ualberta.ca/">May 2020</a><br>
-            <a href="https://www.ualberta.ca/">April 2020</a><br>
-            <a href="https://www.ualberta.ca/">March 2020</a>
-
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="links">
-            <h4 style="margin-top: 0; margin-bottom: 5px; color:rgb(103,164,130)">Links</h4>
-            <a href="https://design.tutsplus.com/">PSDtuts - Photoshop tutorials</a><br>
-            <a href="https://design.tutsplus.com/">NetTtuts - Web development and deign tutorials</a><br>
-            <a href="hhttps://design.tutsplus.com/">VectorTuts - Illustrator and vector tutorials</a><br>
-            <a href="https://design.tutsplus.com/">FlashTuts - Adobe Flash tutorials</a>
-        </div>
-        <div class="Follow">
-            <h4 style="margin-top: 0; margin-bottom: 5px; color:rgb(103,164,130)">Follow our updates</h4>
-            <a href="https://mail.google.com">Subscribe to RSS Feed</a><br>
-            <a href="https://mail.google.com">What is RSS?</a><br>
-            <a href="https://mail.google.com">Email Updates</a><br>
-        </div>
-        <div class="copyright">
-            Copyright &copy; 2020. <br>
-            All Rights Reserved.
-        </div>
-    </div>
 </body>
 </html>

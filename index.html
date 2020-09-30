@@ -20,6 +20,7 @@
         border-radius: 0px;
         color: white;
     }
+
 </style>
 <body>
 
@@ -29,7 +30,8 @@
     <a href="mailto:yihengluworks@gmail.com"; class="text-light">yihengluworks@gmail.com</a>
 </div>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top navbar-transparent" id="nav1">
     <a class="navbar-brand">About</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -312,6 +314,21 @@
         The source code to this link
     </a>
 </div>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
 
 </body>
 </html>

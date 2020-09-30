@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -19,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -30,13 +38,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yiheng1999.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yiheng1999.github.io/page.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.page.html" />
       </list>
     </recent_temporary>
   </component>
@@ -49,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601344337337</updated>
       <workItem from="1601344338385" duration="14717000" />
-      <workItem from="1601432764064" duration="2328000" />
+      <workItem from="1601432764064" duration="5042000" />
     </task>
     <servers />
   </component>
@@ -57,6 +69,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601436228342">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601436228342" />
+    <state x="572" y="335" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601436183856">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="572" y="335" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1601436183856" />
     <state width="1659" height="364" key="GridCell.Tab.0.bottom" timestamp="1601430583113">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
